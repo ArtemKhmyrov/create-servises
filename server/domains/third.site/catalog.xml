@@ -17,7 +17,19 @@
     <idbook>23</idbook>
     <title>PHP8</title>
     <author>Ноунейм</author>
-    <price>2000</price>
+    <price>10</price>
+  </book>
+  <book>
+    <idbook>23</idbook>
+    <title>PHP8</title>
+    <author>Ноунейм</author>
+    <price>200</price>
+  </book>
+  <book>
+    <idbook>23</idbook>
+    <title>PHP8</title>
+    <author>Ноунейм</author>
+    <price>65</price>
   </book>
   <book>
     <idbook>23</idbook>
@@ -31,64 +43,5 @@
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
-  <book>
-    <idbook>23</idbook>
-    <title>PHP8</title>
-    <author>Ноунейм</author>
-    <price>2000</price>
-  </book>
+
 </catalog>
