@@ -17,9 +17,6 @@
 
         $dom->load('catalog.xml');
 
-
-
-
         $newBook = $dom->createElement('book');
 
         $idbook = $dom->createElement('idbook', 23);
@@ -45,7 +42,6 @@
             </thead>
         ";
 
-
         for ($i = 0; $i < $books->length; $i++){
             echo "<tr>";
             $book = $books->item($i);
@@ -53,7 +49,7 @@
             $childNodes = $book->childNodes;
 
             /* read */
-   /*          echo "<td>", $idbook = $childNodes->item(1)->nodeValue;
+            /*    echo "<td>", $idbook = $childNodes->item(1)->nodeValue;
             echo "<td>",$title = $childNodes->item(3)->nodeValue;
             echo "<td>",$author = $childNodes->item(5)->nodeValue;
             echo "<td>",$price = $childNodes->item(7)->nodeValue; */

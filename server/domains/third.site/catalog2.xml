@@ -9,86 +9,86 @@
   </book> -->
   <book>
     <idbook>23</idbook>
-    <title>PHP8*</title>
+    <title>PHP8*@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
   <book>
     <idbook>23</idbook>
-    <title>PHP8</title>
+    <title>PHP8@</title>
     <author>Ноунейм</author>
     <price>2000</price>
   </book>
-</catalog>
+<book><idbook>23423</idbook><title>React</title><author>Anon</author><price>2000</price></book></catalog>

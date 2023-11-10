@@ -94,6 +94,9 @@ ol li {
 
 /* custom */
 
+/* -------------------------- */
+
+
 /* sax.php */
 .table-sax {
 	width: 100%;
@@ -128,8 +131,6 @@ ol li {
 }
 
 
-/* -------------------------- */
-
 /* dom.php */
 
 .table-dom {
@@ -150,4 +151,116 @@ ol li {
 	padding: 5px;
 	border: none;
 	border-bottom: 5px solid #F2F8F8;
+}
+
+
+/* simple.php */
+
+.table-simple {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+.table-simple thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 15px;
+	background: #d8d8d8;
+	font-size: 14px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.table-simple tbody td {
+	text-align: left;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px 15px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table-simple thead tr th:first-child, .table-simple tbody tr td:first-child {
+	border-left: none;
+}
+.table-simple thead tr th:last-child, .table-simple tbody tr td:last-child {
+	border-right: none;
+}
+.table-simple tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+
+/* xmlreader */
+
+
+.table-xmlreader {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 5px solid #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-collapse: collapse; 
+	outline: 3px solid #f72b07;
+	font-size: 15px;
+	background: #fff!important;
+}
+.table-xmlreader th {
+	font-weight: bold;
+	padding: 7px;
+	background: #f72b07;
+	border: none;
+	text-align: left;
+	font-size: 15px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #f72b07;
+}
+
+.table-xmlreader td {
+	padding: 7px;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background: #b9b8b8;
+	font-size: 15px;
+}
+.table-xmlreader tbody tr:nth-child(even){
+	background: #f8f8f8!important;
+}
+
+
+/* xmlwriter */
+
+
+.table-xmlwriter {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 5px solid #fff;
+	border-top: 5px solid #fff;
+	border-bottom: 3px solid #fff;
+	border-collapse: collapse; 
+	outline: 3px solid #f72b07;
+	font-size: 15px;
+	background: #fff!important;
+}
+.table-xmlwriter th {
+	font-weight: bold;
+	padding: 7px;
+	background: #0fee5a;
+	border: none;
+	text-align: left;
+	font-size: 15px;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #00ff15;
+}
+
+.table-xmlwriter td {
+	padding: 7px;
+	border: none;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+	background: #b9b8b8;
+	font-size: 15px;
+}
+.table-xmlwriter tbody tr:nth-child(even){
+	background: #f8f8f8!important;
 }
