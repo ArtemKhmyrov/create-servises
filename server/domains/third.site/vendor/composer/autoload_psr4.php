@@ -8,4 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Wingu\\OctopusCore\\Reflection\\' => array($vendorDir . '/wingu/reflection/src'),
     'PHP2WSDL\\' => array($vendorDir . '/php2wsdl/php2wsdl/src'),
+    'Lcobucci\\JWT\\' => array($vendorDir . '/lcobucci/jwt/src'),
+    'GraphQL\\' => array($vendorDir . '/webonyx/graphql-php/src'),
 );

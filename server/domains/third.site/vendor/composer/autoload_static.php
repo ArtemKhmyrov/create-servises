@@ -15,6 +15,14 @@ class ComposerStaticInita9e08c20ea44be236afbd204225ffaaa
         array (
             'PHP2WSDL\\' => 9,
         ),
+        'L' => 
+        array (
+            'Lcobucci\\JWT\\' => 13,
+        ),
+        'G' => 
+        array (
+            'GraphQL\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -25,6 +33,14 @@ class ComposerStaticInita9e08c20ea44be236afbd204225ffaaa
         'PHP2WSDL\\' => 
         array (
             0 => __DIR__ . '/..' . '/php2wsdl/php2wsdl/src',
+        ),
+        'Lcobucci\\JWT\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/lcobucci/jwt/src',
+        ),
+        'GraphQL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webonyx/graphql-php/src',
         ),
     );
 

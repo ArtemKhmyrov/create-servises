@@ -4,8 +4,77 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c6b65fe37892743c7a8b08c65b475c9a",
+    "content-hash": "221e685ce0f20c89d12a019acf50ef6f",
     "packages": [
+        {
+            "name": "lcobucci/jwt",
+            "version": "3.3.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lcobucci/jwt.git",
+                "reference": "c1123697f6a2ec29162b82f170dd4a491f524773"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lcobucci/jwt/zipball/c1123697f6a2ec29162b82f170dd4a491f524773",
+                "reference": "c1123697f6a2ec29162b82f170dd4a491f524773",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "php": "^5.6 || ^7.0"
+            },
+            "require-dev": {
+                "mikey179/vfsstream": "~1.5",
+                "phpmd/phpmd": "~2.2",
+                "phpunit/php-invoker": "~1.1",
+                "phpunit/phpunit": "^5.7 || ^7.3",
+                "squizlabs/php_codesniffer": "~2.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lcobucci\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Luís Otávio Cobucci Oblonczyk",
+                    "email": "lcobucci@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to work with JSON Web Token and JSON Web Signature",
+            "keywords": [
+                "JWS",
+                "jwt"
+            ],
+            "support": {
+                "issues": "https://github.com/lcobucci/jwt/issues",
+                "source": "https://github.com/lcobucci/jwt/tree/3.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/lcobucci",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/lcobucci",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2020-08-20T13:22:28+00:00"
+        },
         {
             "name": "php2wsdl/php2wsdl",
             "version": "0.6.1",
@@ -56,6 +125,71 @@
                 "source": "https://github.com/dragosprotung/php2wsdl/tree/0.6.1"
             },
             "time": "2019-05-28T20:48:34+00:00"
+        },
+        {
+            "name": "webonyx/graphql-php",
+            "version": "v14.11.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webonyx/graphql-php.git",
+                "reference": "d9c2fdebc6aa01d831bc2969da00e8588cffef19"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/d9c2fdebc6aa01d831bc2969da00e8588cffef19",
+                "reference": "d9c2fdebc6aa01d831bc2969da00e8588cffef19",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": "^7.1 || ^8"
+            },
+            "require-dev": {
+                "amphp/amp": "^2.3",
+                "doctrine/coding-standard": "^6.0",
+                "nyholm/psr7": "^1.2",
+                "phpbench/phpbench": "^1.2",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "0.12.82",
+                "phpstan/phpstan-phpunit": "0.12.18",
+                "phpstan/phpstan-strict-rules": "0.12.9",
+                "phpunit/phpunit": "^7.2 || ^8.5",
+                "psr/http-message": "^1.0",
+                "react/promise": "2.*",
+                "simpod/php-coveralls-mirror": "^3.0"
+            },
+            "suggest": {
+                "psr/http-message": "To use standard GraphQL server",
+                "react/promise": "To leverage async resolving on React PHP platform"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GraphQL\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "A PHP port of GraphQL reference implementation",
+            "homepage": "https://github.com/webonyx/graphql-php",
+            "keywords": [
+                "api",
+                "graphql"
+            ],
+            "support": {
+                "issues": "https://github.com/webonyx/graphql-php/issues",
+                "source": "https://github.com/webonyx/graphql-php/tree/v14.11.10"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/webonyx-graphql-php",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2023-07-05T14:23:37+00:00"
         },
         {
             "name": "wingu/reflection",
@@ -112,7 +246,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "lcobucci/jwt": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

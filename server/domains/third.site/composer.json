@@ -1,5 +1,7 @@
 {
     "require": {
-        "php2wsdl/php2wsdl": "^0.6.1"
+        "php2wsdl/php2wsdl": "^0.6.1",
+        "webonyx/graphql-php": "^14.11",
+        "lcobucci/jwt": "v3.3.x-dev"
     }
 }
