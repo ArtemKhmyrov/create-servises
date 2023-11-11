@@ -30,8 +30,8 @@ class Controller
           <td> $author
           <td> $price
           <td>
-          <a class='btn btn-primary' href="?title=$idbook ?>">Удалить</a>
-          <a class='btn btn-primary' href="?title=$idbook ?>">Изменить</a>
+          <a class='btn btn-primary' href="?title=$idbook">Удалить</a>
+          <a class='btn btn-primary' href="?title=$idbook">Изменить</a>
 BOOK;
 
       }

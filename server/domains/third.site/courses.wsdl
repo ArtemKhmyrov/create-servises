@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<definitions xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="https://third.site/soap" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap-enc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="Courses" targetNamespace="https://third.site/soap">
+  <types>
+    <xsd:schema targetNamespace="https://third.site/soap">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+    </xsd:schema>
+  </types>
+  <portType name="CoursesPort">
+    <operation name="myCoursesMethod">
+      <input message="tns:myCoursesMethodIn"/>
+    </operation>
+  </portType>
+  <binding name="CoursesBinding" type="tns:CoursesPort">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="myCoursesMethod">
+      <soap:operation soapAction="https://third.site/soap#myCoursesMethod"/>
+      <input>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="https://third.site/soap"/>
+      </input>
+      <output>
+        <soap:body use="encoded" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="https://third.site/soap"/>
+      </output>
+    </operation>
+  </binding>
+  <message name="myCoursesMethodIn">
+    <part name="id" type="xsd:anyType"/>
+  </message>
+  <service name="CoursesService">
+    <port name="CoursesPort" binding="tns:CoursesBinding">
+      <soap:address location="https://third.site/soap"/>
+    </port>
+  </service>
+</definitions>

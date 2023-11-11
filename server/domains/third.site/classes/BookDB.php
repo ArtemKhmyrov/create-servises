@@ -1,7 +1,8 @@
 <?php 
 
 class  BookDB{
-    const DB_NAME = "book.sq3";
+    const DB_NAME = 'C:/Users/Root/Desktop/create-servises/server/domains/third.site/book.sq3';
+    
     private $db;
 
     public function __construct(){
@@ -26,11 +27,21 @@ class  BookDB{
         return $result;
     }
 
+    public function count (  ){
+        $sql = 'SELECT count(*) FROM book';
+        $result = $this->db->querySingle($sql);
+        if(!$result){
+            return false;
+        }
+        return $result;
+    }
+
+
     public function select ( $id = 0 ){
         $sql = 'SELECT idbook, title, author, price FROM book';
 
         if ( $id ){
-            $sql .= 'id=:idbook';
+            $sql .= ' WHERE idbook=:idbook';
         }
 
         $stmt = $this->db->prepare( $sql );

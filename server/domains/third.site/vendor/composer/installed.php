@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'bd70aa8433d522e6ab857dd26ceb1682ddc89667',
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'bd70aa8433d522e6ab857dd26ceb1682ddc89667',
+            'dev_requirement' => false,
+        ),
+        'php2wsdl/php2wsdl' => array(
+            'pretty_version' => '0.6.1',
+            'version' => '0.6.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php2wsdl/php2wsdl',
+            'aliases' => array(),
+            'reference' => '37c15cdc4cdd15363faf151dc0121ac5595fc513',
+            'dev_requirement' => false,
+        ),
+        'wingu/reflection' => array(
+            'pretty_version' => '1.1.0',
+            'version' => '1.1.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wingu/reflection',
+            'aliases' => array(),
+            'reference' => '604637061ccc12da7f700865ccb9058e648181dd',
+            'dev_requirement' => false,
+        ),
+    ),
+);

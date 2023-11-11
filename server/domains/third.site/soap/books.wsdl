@@ -1,0 +1,47 @@
+<?xml version ='1.0' encoding='UTF-8' ?>
+<definitions name='Books'
+    targetNamespace='http://third.site/books'
+    xmlns:tns='http://third.site/books'
+    xmlns:soap='http://schemas.xmlsoap.org/wsdl/soap/'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema'
+    xmlns:soapenc='http://schemas.xmlsoap.org/soap/encodin/g'
+    xmlns:wsdl='http://schemas.xmlsoap.org/wsdl/'
+    xmlns='http://schemas.xmlsoap.org/wsdl/' >
+
+    <message name='getBookByIdRequest'>
+        <part name='id' type='xsd:integer' />
+    </message> 
+
+    <message name='getBookByIdResponse'>
+        <part name='item' type='xsd:base64Binary' />
+    </message>
+
+    <message name='getBooksCountResponse'>
+        <part name='count' type='xsd:integer' />
+    </message>
+
+    <portType name='BooksPortType'>
+        <operation name='getBookById'>
+            <input message='tns:getBookByIdRequest' />
+            <output message='tns:getBookByIdResponse' />
+        </operation>
+        <operation name='getBooksCount'>
+            <output message='tns:getBooksCountResponse' />
+        </operation>
+    </portType>
+
+    <binding name='BooksBinding' type='tns:BooksPortType'>
+        <soap:binding style='rpc' transport="http://schemas.xmlsoap.org/soap/http"/>
+        <operation name='getBookById' />
+        <operation name='getBooksCount' />
+    </binding> 
+
+    <service name='BooksService'>
+        <port name='BooksPort' binding='BooksBinding'>
+            <soap:address location='http://third.site/soap/server.php' />
+        </port>
+    </service>
+
+</definitions>
+    
+<!-- cnjg -->
